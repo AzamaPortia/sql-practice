@@ -2,8 +2,21 @@
 
 ## Keywords I've learned
 - SELECT:
+    Select query for a specific columns
+    SELECT column, another_column, …
+    FROM mytable;
+
+    Select query for all columns
+    SELECT * 
+    FROM mytable;
 - FROM:
 - WHERE:
+    Select query with constraints
+    SELECT column, another_column, …
+    FROM mytable
+    WHERE condition
+        AND/OR another_condition
+        AND/OR …;
 - ORDER BY:
 - LIMIT:
 
